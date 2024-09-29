@@ -1,0 +1,81 @@
+.container{
+    width: 650px;
+    background-color: white;
+    padding: 10px;
+    margin: 60px auto;
+    border-radius: 5px;
+    height: 750px;
+    transition: height .2s;
+}
+.container .header{
+    font-size: 3.5rem;
+    padding: 15px;
+}
+.container .question{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+}
+.container ul li{
+    list-style-type: none;
+    width: 570px;
+    border: 1px solid #aaa;
+    margin: 15px;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn{
+    width: 170px;
+    padding: 8px;
+    font-size: 1.3rem;
+    display: block;
+    margin: 35px auto;
+    cursor: pointer;
+    background-color: rgb(33, 33, 105);
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+.container .para{
+    margin: 40px auto;
+   width: 100%;
+   max-width: 350px;
+   font-size: 1.4rem;
+}
+.container .correct{
+    border: 1px solid rgb(7, 179, 7);
+    background-color: rgb(231, 241, 231);
+    transition: background 1s;
+}
+.container .wrong{
+    border: 1px solid red;
+    background-color: rgb(240, 215, 215);
+}
+.container .remainder {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.remainder .score{
+   padding: 10px;
+   margin: 0 10px;
+}
+.remainder .reset {
+   width: 170px;
+    padding: 8px;
+    font-size: 1.3rem;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    background-color: rgb(33, 33, 105);
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
